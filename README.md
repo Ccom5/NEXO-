@@ -31,25 +31,65 @@ Obsidian es increíble para almacenar y conectar pensamientos, pero a veces nece
 
 ---
 
-## 📖 Documentación y Manual
+# ♾️ Nexo: Ecosistema Cognitivo
+**Nexo** es un puente de inteligencia diseñado para potenciar aplicaciones de conocimiento personal como **Obsidian**. Desarrollado desde la precisión de la **ingeniería electrónica**, transforma bibliotecas masivas en mapas operativos mediante una arquitectura híbrida de IA.
 
-Puedes consultar el manual de usuario completo para entender cómo Nexo se integra en tu flujo de trabajo:
-
-👉 **[Ver Manual de Usuario Interactivo](https://ccom5.github.io/Nexo-/manual_usuario_nexo.html)**
-
----
-
-## 🛠 ¿Por qué el código no es abierto (aún)?
-
-Nexo se encuentra en una fase de **"protección de visión"**. El objetivo es evitar la fragmentación o la monetización de terceros de una herramienta concebida para ser gratuita para la comunidad.
-
-Estamos evaluando licencias que:
-*   Garanticen que la herramienta siempre sea **gratuita**.
-*   Eviten el uso comercial no autorizado de la arquitectura de Nexo.
-*   Permitan la colaboración sin comprometer la hoja de ruta original.
+> \[!TIP\] _"Nexo no reemplaza a tu cerebro; le da un tablero de control para que dejes de buscar y empieces a operar."_
 
 ---
 
+## 🌌 Características Principales
+
+-   **Procesamiento de Alta Densidad:** Capaz de digerir **+100,000 palabras** en menos de un minuto mediante un sistema de **triaje inteligente**.
+    
+-   **Mapa de Ideas (Propio):** Motor visual inyectado que traduce datos JSON en constelaciones interactivas de conocimiento.
+    
+-   **Simbiosis con Obsidian:** Utiliza tu bóveda como **caché no volátil**, asegurando que los hallazgos de la IA queden anclados localmente para siempre.
+    
+-   **Router de IA con Resiliencia:** Sistema de _Round Robin_ que rota automáticamente entre Gemini, Groq y OpenRouter para optimizar cuotas y garantizar disponibilidad 24/7.
+---
+
+## 🛠️ Arquitectura de Ingeniería (v4.4)
+
+Nexo aplica principios de optimización de recursos para manejar grandes volúmenes de texto:
+
+1.  **Capa de Datos:** Obsidian como núcleo de persistencia y visualización.
+    
+2.  **Capa de Inteligencia (Python):** Motores de enriquecimiento que extraen el "ADN" del texto (10% representativo) para análisis profundo sin agotar recursos.
+    
+3.  **Capa Visual:** Generación automática de **Canvas de Obsidian** y visores web dinámicos.
+---
+
+## 📖 Casos de Uso: De la Ingeniería al Arte
+
+Nexo es la herramienta diaria de su autor para la gestión de **10 obras literarias propias** de libre difusión.
+
+-   **Identificación de Puntos Ciegos:** La IA sugiere temas o conexiones que faltan en tu narrativa.
+    
+-   **Análisis Cognitivo:** Hallazgos no obvios y relaciones transversales entre miles de notas.
+---
+
+## 🚀 Demo y Documentación
+
+-   📺 **\[Ver Video: Procesando 100k palabras\]** _(Próximamente)_
+    
+-   🌐 **[Explorar Manual de Usuario Interactivo](https://www.google.com/search?q=https://ccom5.github.io/Nexo-/manual_usuario_nexo.html)**
+    
+-   🧠 **\[Navegar Demo de la Bóveda Literaria\]** _(Próximamente)_
+---
+
+## ⚖️ Filosofía y Licencia
+
+**Nexo** nació para proteger la libertad del conocimiento.
+
+-   **Estado actual:** Todos los derechos reservados mientras se define la licencia que mejor proteja la gratuidad y la integridad de la comunidad.
+    
+-   **Misión:** Mantenerse como una herramienta potente, accesible y respetuosa con la soberanía de los datos.
+---
+
+### 📧 Contacto
+
+¿Tienes una idea para mejorar el flujo creativo? Abre un **Issue** o explora el manual. **Nexo evoluciona contigo.**
 ## 🚀 Próximos Pasos
 
 - [ ] Estabilización de la versión v1.0.
