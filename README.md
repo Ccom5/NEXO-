@@ -121,4 +121,4 @@ No, es un motor cognitivo independiente. Es un compañero diseñado para coexist
 Creemos que las herramientas de "infraestructura mental" deben ser accesibles para todos, sin barreras de entrada.
 
 **¿Habrá una versión Pro?**  
-El núcleo funcional de Nexo nació para ser gratuito. El objetivo es que la comunidad no dependa de suscripciones que fragmenten su conocimiento.
+El núcleo funcional de Nexo nació para ser gratuito. El objetivo es que la comunidad no dependa de suscripciones que fragmenten su conocimiento.El núcleo funcional de Nexo nació para ser gratuito. El objetivo es que la comunidad no dependa de suscripciones que fragmenten su conocimiento.
