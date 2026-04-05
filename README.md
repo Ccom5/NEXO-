@@ -87,9 +87,6 @@ Nexo es la herramienta diaria de su autor para la gestión de **10 obras literar
 -   **Misión:** Mantenerse como una herramienta potente, accesible y respetuosa con la soberanía de los datos.
 ---
 
-### 📧 Contacto
-
-¿Tienes una idea para mejorar el flujo creativo? Abre un **Issue** o explora el manual. **Nexo evoluciona contigo.**
 ## 🚀 Próximos Pasos
 
 - [ ] Estabilización de la versión v1.0.
