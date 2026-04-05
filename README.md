@@ -34,8 +34,6 @@ Obsidian es increíble para almacenar y conectar pensamientos, pero a veces nece
 # ♾️ Nexo: Ecosistema Cognitivo
 **Nexo** es un puente de inteligencia diseñado para potenciar aplicaciones de conocimiento personal como **Obsidian**. Desarrollado desde la precisión de la **ingeniería electrónica**, transforma bibliotecas masivas en mapas operativos mediante una arquitectura híbrida de IA.
 
-> \[!TIP\] _"Nexo no reemplaza a tu cerebro; le da un tablero de control para que dejes de buscar y empieces a operar."_
-
 ---
 
 ## 🌌 Características Principales
