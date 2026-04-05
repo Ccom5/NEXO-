@@ -71,13 +71,15 @@ Nexo es la herramienta diaria de su autor para la gestión de **10 obras literar
 
 <div align="center">
   <p><b>📺 Video: Procesando palabras con el sistema de triaje inteligente</b></p>
-  <video src="https://github.com/user-attachments/assets/80fba68e-94e2-49de-81c5-c2439ddca9ec" width="100%" style="max-width:800px;" controls>
+  <video src="https://github.com/user-attachments/assets/17afcc42-27d3-4394-88c5-be7c6394bc32" width="100%" style="max-width:800px;" controls>
     Tu navegador no soporta el video.
-  </video>
+  </video> 
 </div>
--   🌐 [**Explorar Manual de Usuario Interactivo**](https://ccom5.github.io/Nexo-/) fa681687734b20d426e75ef614a5d8f6e3e6efc1
+
+---
+
+## 🌐 [**Explorar Manual de Usuario Interactivo**](https://ccom5.github.io/Nexo-/) 
     
--   🧠 **\[Navegar Demo de la Bóveda Literaria\]** _(Próximamente)_
 ---
 
 ## ⚖️ Filosofía y Licencia
