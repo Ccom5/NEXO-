@@ -71,7 +71,7 @@ Nexo es la herramienta diaria de su autor para la gestión de **10 obras literar
 
 -   📺 **\[Ver Video: Procesando 100k palabras\]** _(Próximamente)_
     
--   🌐 **[Explorar Manual de Usuario Interactivo](https://ccom5.github.io/Nexo-/)**
+-   🌐 **[Explorar Manual de Usuario Interactivo] (https://ccom5.github.io/Nexo-/)**
     
 -   🧠 **\[Navegar Demo de la Bóveda Literaria\]** _(Próximamente)_
 ---
