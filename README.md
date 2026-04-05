@@ -122,3 +122,4 @@ Creemos que las herramientas de "infraestructura mental" deben ser accesibles pa
 
 **¿Habrá una versión Pro?**  
 El núcleo funcional de Nexo nació para ser gratuito. El objetivo es que la comunidad no dependa de suscripciones que fragmenten su conocimiento.El núcleo funcional de Nexo nació para ser gratuito. El objetivo es que la comunidad no dependa de suscripciones que fragmenten su conocimiento.
+El núcleo funcional de Nexo nació para ser gratuito. El objetivo es que la comunidad no dependa de suscripciones que fragmenten su conocimiento.
