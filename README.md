@@ -75,7 +75,7 @@ Nexo es la herramienta diaria de su autor para la gestión de **10 obras literar
     Tu navegador no soporta el video.
   </video>
 </div>
--   🌐 - 🌐 [**Explorar Manual de Usuario Interactivo**](https://ccom5.github.io/Nexo-/) fa681687734b20d426e75ef614a5d8f6e3e6efc1
+-   🌐 [**Explorar Manual de Usuario Interactivo**](https://ccom5.github.io/Nexo-/) fa681687734b20d426e75ef614a5d8f6e3e6efc1
     
 -   🧠 **\[Navegar Demo de la Bóveda Literaria\]** _(Próximamente)_
 ---
