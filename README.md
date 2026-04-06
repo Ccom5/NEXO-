@@ -84,7 +84,9 @@ Nexo es la herramienta diaria de su autor para la gestión de **10 obras literar
 ## 🚀 Demo y Documentación
 
 <div align="center">
-  <p><b>📺 Video: Procesando palabras con el sistema de triaje inteligente</b></p>
+  <p><b>📺 Video: Procesando palabras con el sistema de triaje inteligente</b>
+    <p>Se cargaron 12 archivos de texto con un total de 130.000 palabras.
+    Noten en la consola de avances, que transcurren algunos segundos apenas en todo el porceso</p>
   <video src="https://github.com/user-attachments/assets/dee07daf-3c6c-4278-9b93-d1fc6364a055
 " width="100%" style="max-width:800px;" controls>
     Tu navegador no soporta el video.
