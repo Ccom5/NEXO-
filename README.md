@@ -71,7 +71,8 @@ Nexo es la herramienta diaria de su autor para la gestión de **10 obras literar
 
 <div align="center">
   <p><b>📺 Video: Procesando palabras con el sistema de triaje inteligente</b></p>
-  <video src="https://github.com/user-attachments/assets/17afcc42-27d3-4394-88c5-be7c6394bc32" width="100%" style="max-width:800px;" controls>
+  <video src="https://github.com/user-attachments/assets/dee07daf-3c6c-4278-9b93-d1fc6364a055
+" width="100%" style="max-width:800px;" controls>
     Tu navegador no soporta el video.
   </video> 
 </div>
@@ -89,6 +90,7 @@ Nexo es la herramienta diaria de su autor para la gestión de **10 obras literar
 -   **Estado actual:** Todos los derechos reservados mientras se define la licencia que mejor proteja la gratuidad y la integridad de la comunidad.
     
 -   **Misión:** Mantenerse como una herramienta potente, accesible y respetuosa con la soberanía de los datos.
+
 ---
 
 ## 🚀 Próximos Pasos
@@ -103,18 +105,20 @@ Nexo es la herramienta diaria de su autor para la gestión de **10 obras literar
 
 Aunque el código esté bajo reserva, **tu opinión no lo está**. Si quieres colaborar:
 
-*   **Abre un Issue** con tus sugerencias o ideas.
-*   **Explora el manual** y cuéntanos qué funciones te gustaría ver integradas.
+-   **Abre un Issue** con tus sugerencias o ideas.
+-   **Explora el manual** y cuéntanos qué funciones te gustaría ver integradas.
 
 ---
 
 ## 📌 FAQ Rápido
 
-**¿Es Nexo  ∞ un plugin de Obsidian?**  
-No, es un motor cognitivo independiente. Es un compañero diseñado para coexistir, ofreciendo una interfaz de usuario optimizada que complementa la experiencia de escritorio y móvil de Obsidian.
+**¿Es Nexo ∞ un plugin de Obsidian?**  
+No, es un motor cognitivo independiente. Es un compañero diseñado para coexistir, ofreciendo una interfaz de usuario
+optimizada que complementa la experiencia de escritorio y móvil de Obsidian.
 
 **¿Por qué es gratis?**  
 Creemos que las herramientas de "infraestructura mental" deben ser accesibles para todos, sin barreras de entrada.
 
 **¿Habrá una versión Pro?**  
-El núcleo funcional de Nexo nació para ser gratuito. El objetivo es que la comunidad no dependa de suscripciones que fragmenten su conocimiento.
+El núcleo funcional de Nexo nació para ser gratuito. El objetivo es que la comunidad no dependa de suscripciones que
+fragmenten su conocimiento.
