@@ -130,7 +130,9 @@ Aunque el código esté bajo reserva, **tu opinión no lo está**. Si quieres co
 ---
 ```
 ## 🔒 Documentación Técnica y Arquitectura
-La arquitectura detallada del pipeline y el manual técnico de ingeniería están reservados. Si eres desarrollador, investigador o deseas colaborar en el proyecto, puedes solicitar acceso al repositorio privado:
+La arquitectura detallada del pipeline y el manual técnico de ingeniería están reservados.   
+Si eres desarrollador, investigador o deseas colaborar en el proyecto - 
+puedes solicitar acceso al repositorio privado:
 - [ ] Abre un **Issue** con el asunto "Solicitud de acceso técnico".
 - [ ] O contacta directamente vía GitHub.
 
