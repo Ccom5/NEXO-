@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>Nexo ∞ — Onboarding</title>
+
+<style>
+:root {
+    --bg: #1E2130;
+    --panel: #2A2F45;
+    --accent: #4A7FC1;
+    --accent2: #5B8ED6;
+    --text: #EAEAEA;
+    --muted: #AAB0C0;
+    --success: #3FAF6F;
+}
+
+body {
+    margin: 0;
+    font-family: 'Segoe UI', sans-serif;
+    background: linear-gradient(135deg, #1E2130, #181B27);
+    color: var(--text);
+}
+
+/* INTRO */
+#intro {
+    position: fixed;
+    inset: 0;
+    background:#141722;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    z-index: 999;
+}
+
+.intro-box {
+    text-align: center;
+    max-width: 600px;
+}
+
+.fade {
+    opacity: 0;
+    animation: fadeText 1s forwards;
+}
+
+.delay1 { animation-delay: 0.5s; }
+.delay2 { animation-delay: 1.2s; }
+.delay3 { animation-delay: 2s; }
+
+.highlight {
+    color: var(--success);
+}
+
+@keyframes fadeText {
+    to { opacity: 1; transform: translateY(0); }
+    from { opacity: 0; transform: translateY(10px); }
+}
+
+.fade-out {
+    animation: fadeOut 0.6s forwards;
+}
+
+@keyframes fadeOut {
+    to { opacity: 0; }
+}
+
+/* MANUAL */
+.container {
+    max-width: 1100px;
+    margin: auto;
+    padding: 40px;
+}
+
+.card {
+    background: var(--panel);
+    padding: 30px;
+    border-radius: 14px;
+    margin-bottom:20px;
+}
+
+.progress {
+    height: 6px;
+    background: #2A2F45;
+    border-radius: 10px;
+    overflow: hidden;
+    margin-bottom: 30px;
+}
+
+.progress-bar {
+    height: 100%;
+    width: 20%;
+    background: linear-gradient(90deg, var(--accent), var(--accent2));
+    transition: 0.4s;
+}
+
+.step { display:none; }
+.step.active {
+    display:grid;
+    grid-template-columns:1fr 1fr;
+    gap:40px;
+}
+
+.image {
+    height:250px;
+    background:#141722;
+    border-radius:12px;
+    display:flex;
+    align-items:center;
+    justify-content:center;
+}
+
+.controls {
+    margin-top:30px;
+    display:flex;
+    justify-content:space-between;
+}
+
+button {
+    background: var(--accent);
+    border:none;
+    padding:10px 15px;
+    color:white;
+    border-radius:6px;
+    cursor:pointer;
+}
+.enter-btn {
+    display: inline-block;
+    margin-top: 30px;
+    background: linear-gradient(90deg, #4A7FC1, #5B8ED6);
+    padding: 12px 20px;
+    color: white;
+    text-decoration: none;
+    border-radius: 8px;
+}    
+</style>
+</head>
+
+<body>
+
+<!-- Selector for back to Spanish -->
+<div style="position: absolute; top: 20px; right: 20px; z-index: 1000;">
+    <a href="intro.html" style="color: var(--muted); text-decoration: none; font-size: 0.9em;">ES / Español</a>
+</div>
+
+<div id="intro">
+    <div class="intro-box">
+ <div class="image"><img src="img/n-3.png"></div>        
+        <h1>System under user control</h1>
+        <p class="fade delay1">This system doesn't write for you</p>
+        <p class="fade delay2">It works on what you create</p>
+        <p class="fade delay3 highlight">Intelligence is amplified</p>
+<a href="manual_usuario_nexo-en.html" class="enter-btn">
+    View Manual
+</a>
+    </div>
+</div>
+<script>
+function enterManual(){
+    document.getElementById("intro").style.display = "none";
+    document.getElementById("manual").style.display = "block";
+
+    current = 0;
+    showStep(0);
+}
+</script>
+
+</body>
+</html>
