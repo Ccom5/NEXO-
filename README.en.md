@@ -111,8 +111,10 @@ Even if the code is reserved, **your opinion is not**. If you want to collaborat
 
 ---
 ```
-## 🔒 Technical Documentation & Architecture
-The detailed pipeline architecture and technical engineering manual are reserved. If you are a developer, researcher, or wish to collaborate, you may request access to the private repository:
+🔒 Technical Documentation & Architecture
+The detailed pipeline architecture and technical engineering manual are reserved. 
+If you are a developer, researcher, or wish to collaborate - 
+you may request access to the private repository:
 - [ ] Open an **Issue** with the subject "Technical Access Request".
 - [ ] Or contact directly via GitHub.
 
