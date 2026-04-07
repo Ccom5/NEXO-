@@ -79,6 +79,9 @@ Nexo aplica principios de optimización de recursos para manejar grandes volúme
 
 Nexo es la herramienta diaria de su autor para la gestión de **10 obras literarias propias** de libre difusión.
 
+Ese volumen de texto es obra literaria propia, usada como "benchmark" (prueba de rendimiento).
+
+Mensaje técnico: "Demostración de procesamiento de alta densidad: 130k palabras en
 -   **Identificación de Puntos Ciegos:** La IA sugiere temas o conexiones que faltan en tu narrativa.
 -   **Análisis Cognitivo:** Hallazgos no obvios y relaciones transversales entre miles de notas.
 

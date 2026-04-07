@@ -63,6 +63,8 @@ Nexo applies resource optimization principles to handle large volumes of text:
 
 Nexo is the author's daily tool for managing **10 original literary works** of free distribution.
 
+That volume of text is original literary work, used as a "benchmark" (performance test).
+
 - **Blind Spot Identification:** The AI suggests themes or connections missing from your narrative.
 - **Cognitive Analysis:** Non-obvious findings and cross-sectional relationships between thousands of notes.
 
