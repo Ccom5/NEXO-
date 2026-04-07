@@ -1,7 +1,7 @@
 # Nexo ∞ : The Ideal Companion for your Second Brain
 
 [![English](https://img.shields.io/badge/Language-English-red.svg)](README.en.md)
-[![Español](https://img.shields.io/badge/Idioma-Español- yellow.svg)](README.md)
+[![Español](https://img.shields.io/badge/Idioma-Español- skyblue.svg)](README.md)
 
 **Nexo** is not just a tool; it is a bridge designed to enhance workflows in personal knowledge management (PKM) applications like **Obsidian**. It is born from the philosophy that information organization should be fluid, accessible, and, above all, free for the end user.
 
