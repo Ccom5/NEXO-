@@ -93,11 +93,12 @@ Mensaje técnico: "Demostración de procesamiento de alta densidad: 130k palabra
   <p><b>📺 Video: Procesando palabras con el sistema de triaje inteligente</b>
     <p>Se cargaron 12 archivos de texto con un total de 130.000 palabras.
     Noten en la consola de avances, que transcurren algunos segundos apenas en todo el porceso</p>
-  <video src="https://github.com/user-attachments/assets/dee07daf-3c6c-4278-9b93-d1fc6364a055
-" width="100%" style="max-width:800px;" controls>
+  <video src="https://github.com/user-attachments/assets/119030f8-1f31-49a9-a776-25aa4fc25543
+" controls>
     Tu navegador no soporta el video.
   </video> 
 </div>
+
 
 ---
 
