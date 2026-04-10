@@ -76,7 +76,8 @@ That volume of text is original literary work, used as a "benchmark" (performanc
   <p><b>📺 Video: Processing words with the smart triage system</b></p>
   <p>12 text files were loaded with a total of 130,000 words.
   Notice in the progress console that only a few seconds pass throughout the entire process.</p>
-  <video src="https://github.com/user-attachments/assets/dee07daf-3c6c-4278-9b93-d1fc6364a055" width="100%" style="max-width:800px;" controls>
+  <video src="https://github.com/user-attachments/assets/119030f8-1f31-49a9-a776-25aa4fc25543
+" width="100%" style="max-width:800px;" controls>
     Your browser does not support the video.
   </video> 
 </div>
