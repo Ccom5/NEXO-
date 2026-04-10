@@ -94,7 +94,7 @@ Mensaje técnico: "Demostración de procesamiento de alta densidad: 130k palabra
     <p>Se cargaron 12 archivos de texto con un total de 130.000 palabras.
     Noten en la consola de avances, que transcurren algunos segundos apenas en todo el porceso</p>
   <video src="https://github.com/user-attachments/assets/119030f8-1f31-49a9-a776-25aa4fc25543
-" controls>
+" width="100%" style="max-width:800px;" controls>
     Tu navegador no soporta el video.
   </video> 
 </div>
