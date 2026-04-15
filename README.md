@@ -146,9 +146,11 @@ puedes solicitar acceso al repositorio privado:
 No, es un motor cognitivo independiente. Es un compañero diseñado para coexistir, ofreciendo una interfaz de usuario
 optimizada que complementa la experiencia de escritorio y móvil de Obsidian.
 
-**¿Por qué es gratis?**  
-Creemos que las herramientas de "infraestructura mental" deben ser accesibles para todos, sin barreras de entrada.
+**¿Por qué no esta el codigo fuente?**  
+Seguimos desarrollando funciones, Nexo va camino a aoprtar una herramienta poderosa a los decentes de escolaridad sefundaria basica y tambien Universitaria.
+Y en este objetivose busca linecias que sean acorde a esta filosofia de aporte social.
 
 **¿Habrá una versión Pro?**  
-El núcleo funcional de Nexo nació para ser gratuito. El objetivo es que la comunidad no dependa de suscripciones que
-fragmenten su conocimiento.
+El núcleo funcional de Nexo nació para ser gratuito, por el momento para isntitciones educativas. 
+El objetivo es que la comunidad no dependa de suscripciones que fragmenten su conocimiento.
+Pero tambien liberaremos su uso al publico en general de forma gratuita con funciones para uso personal.

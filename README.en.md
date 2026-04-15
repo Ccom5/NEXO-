@@ -123,11 +123,17 @@ you may request access to the private repository:
 ```
 ## 📌 Quick FAQ
 
-**Is Nexo ∞ an Obsidian plugin?**  
-No, it is an independent cognitive engine. It is a companion designed to coexist, offering an optimized UI that complements the Obsidian desktop and mobile experience.
+**Is Nexo ∞ an Obsidian add-on?**
+No, it's an independent cognitive engine. It's a companion designed to coexist, offering an optimized user interface that complements the Obsidian desktop and mobile experience.
 
-**Why is it free?**  
-We believe that "mental infrastructure" tools should be accessible to everyone, without barriers to entry.
+**Why isn't the source code available?**
+We're still developing features. Nexo is on its way to providing a powerful tool for teachers in basic and university education.
 
-**Will there be a Pro version?**  
-Nexo's functional core was born to be free. The goal is for the community not to depend on subscriptions that fragment their knowledge.
+And in this objective, we're looking for features that align with this philosophy of social contribution.
+
+**Will there be a Pro version?**
+The core functionality of Nexo was created to be free, for now, for educational institutions.
+
+The goal is for the community not to depend on subscriptions that fragment their knowledge.
+
+But we will also release it to the general public for free with features for personal use.
