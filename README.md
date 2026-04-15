@@ -147,8 +147,8 @@ No, es un motor cognitivo independiente. Es un compañero diseñado para coexist
 optimizada que complementa la experiencia de escritorio y móvil de Obsidian.
 
 **¿Por qué no esta el codigo fuente?**  
-Seguimos desarrollando funciones, Nexo va camino a aportar una herramienta poderosa a los decentes de escolaridad sefundaria basica y tambien Universitaria.
-Y en este objetivose busca linecias que sean acorde a esta filosofia de aporte social.
+Seguimos desarrollando funciones, Nexo va camino a ser una herramienta poderosa para los docentes de escolaridad  basica y tambien Universitaria.
+En este objetivo, se busca linecias que sean acorde a esta filosofia de aporte social. HAsta tenerlas el codigo deberá esperar. 
 
 **¿Habrá una versión Pro?**  
 El núcleo funcional de Nexo nació para ser gratuito, por el momento para isntitciones educativas. 

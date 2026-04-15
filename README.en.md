@@ -127,7 +127,9 @@ you may request access to the private repository:
 No, it's an independent cognitive engine. It's a companion designed to coexist, offering an optimized user interface that complements the Obsidian desktop and mobile experience.
 
 **Why isn't the source code available?**
-We're still developing features. Nexo is on its way to providing a powerful tool for teachers in basic and university education.
+We continue developing features; Nexo is on its way to becoming a powerful tool for teachers at both the primary and university levels.
+
+To achieve this, we are seeking guidelines that align with this philosophy of social contribution. Until these guidelines are available, the code will have to wait.
 
 And in this objective, we're looking for features that align with this philosophy of social contribution.
 
