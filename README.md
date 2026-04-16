@@ -53,24 +53,26 @@ mediante una arquitectura híbrida de IA.
 
 ## 🌌 Características Principales
 
--   **Procesamiento de Alta Densidad:** Capaz de digerir **+100,000 palabras** en menos de un minuto mediante un sistema
-    de **triaje inteligente**.
--   **Mapa de Ideas (Propio):** Motor visual inyectado que traduce datos JSON en constelaciones interactivas de
-    conocimiento.
--   **Simbiosis con Obsidian:** Utiliza tu bóveda como **caché no volátil**, asegurando que los hallazgos de la IA
-    queden anclados localmente para siempre.
--   **Router de IA con Resiliencia:** Sistema de _Round Robin_ que rota automáticamente entre Gemini, Groq y OpenRouter
-    para optimizar cuotas y garantizar disponibilidad 24/7.
+-   **Procesamiento Multimodal:** Capaz de digerir **texto, imágenes y audio** mediante arquitectura híbrida de IA.
+-   **Procesamiento de Alta Densidad:** Capaz de digerir **+100,000 palabras** en menos de un minuto mediante un sistema de **triaje inteligente**.
+-   **ChromaDB Integrada:** Base de datos vectorial para similitud semántica (>95% = conceptual_hit, 0 tokens IA).
+-   **Nexo Bridge:** API FastAPI (puerto 8000) para integración directa con Obsidian.
+-   **Mapa de Ideas (Propio):** Motor visual inyectado que traduce datos JSON en constelaciones interactivas de conocimiento.
+-   **Simbiosis con Obsidian:** Utiliza tu bóveda como **caché no volátil**, asegurando que los hallazgos de la IA queden anclados localmente para siempre.
+-   **Router de IA con Resiliencia:** Sistema de _Round Robin_ que rota automáticamente entre SambaNova, Groq y OpenRouter para optimizar cuotas y garantizar disponibilidad 24/7.
+-   **Memoria Inteligente (AAAK):** Sistema de MemAtoms que aprende de tus notas y mantiene un contexto vivo.
 
 ---
 
-## 🛠️ Arquitectura de Ingeniería (v4.4)
+## 🛠️ Arquitectura de Ingeniería (v2.0)
 
-Nexo aplica principios de optimización de recursos para manejar grandes volúmenes de texto:
+Nexo aplica principios de optimización de recursos para manejar grandes volúmenes de texto y contenido multimodal:
 
 1.  **Capa de Datos:** Obsidian como núcleo de persistencia y visualización.
-2.  **Capa de Inteligencia (Python):** Motores de enriquecimiento que extraen el "ADN" del texto (10% representativo)
-    para análisis profundo sin agotar recursos.
+2.  **Capa de Inteligencia (Python):** Motores de enriquecimiento que extraen el "ADN" del texto (10% representativo) para análisis profundo sin agotar recursos.
+    -   **Triple Filtro de Resiliencia:** SHA-256 → ChromaDB (similitud >95%) → IA.
+    -   **ChromaDB:** Base de datos vectorial para similitud semántica.
+    -   **Nexo Bridge:** API FastAPI para integración directa con Obsidian.
 3.  **Capa Visual:** Generación automática de **Canvas de Obsidian** y visores web dinámicos.
 
 ---
@@ -117,7 +119,7 @@ Mensaje técnico: "Demostración de procesamiento de alta densidad: 130k palabra
 
 ## 🚀 Próximos Pasos
 
--   [ ] Estabilización de la versión v1.0.
+-   [ ] Estabilización de la versión v2.0.
 -   [ ] Definición de la licencia de uso final.
 -   [ ] Apertura de módulos de personalización para usuarios avanzados.
 
@@ -131,6 +133,7 @@ Aunque el código esté bajo reserva, **tu opinión no lo está**. Si quieres co
 -   **Explora el manual** y cuéntanos qué funciones te gustaría ver integradas.
 
 ---
+
 ```
 🔒 Documentación Técnica y Arquitectura
 La arquitectura detallada del pipeline y el manual técnico de ingeniería están reservados.   

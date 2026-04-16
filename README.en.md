@@ -42,19 +42,26 @@ Obsidian is incredible for storing and connecting thoughts, but sometimes we nee
 
 ## 🌌 Main Features
 
+- **Multimodal Processing:** Capable of digesting **text, images and audio** through a hybrid AI architecture.
 - **High-Density Processing:** Capable of digesting **+100,000 words** in less than a minute through a **smart triage system**.
+- **ChromaDB Integrated:** Vector database for semantic similarity (>95% = conceptual_hit, 0 AI tokens).
+- **Nexo Bridge:** FastAPI API (port 8000) for direct Obsidian integration.
 - **Idea Map (Proprietary):** Injected visual engine that translates JSON data into interactive knowledge constellations.
 - **Symbiosis with Obsidian:** Uses your vault as a **non-volatile cache**, ensuring that AI findings remain locally anchored forever.
-- **Resilient AI Router:** A *Round Robin* system that automatically rotates between Gemini, Groq, and OpenRouter to optimize quotas and guarantee 24/7 availability.
+- **Resilient AI Router:** A *Round Robin* system that automatically rotates between SambaNova, Groq, and OpenRouter to optimize quotas and guarantee 24/7 availability.
+- **Smart Memory (AAAK):** MemAtoms system that learns from your notes and maintains a living context.
 
 ---
 
-## 🛠️ Engineering Architecture (v4.4)
+## 🛠️ Engineering Architecture (v2.0)
 
-Nexo applies resource optimization principles to handle large volumes of text:
+Nexo applies resource optimization principles to handle large volumes of text and multimodal content:
 
 1. **Data Layer:** Obsidian as the core for persistence and visualization.
 2. **Intelligence Layer (Python):** Enrichment engines that extract the "DNA" of the text (10% representative) for deep analysis without exhausting resources.
+   - **Resilience Triple Filter:** SHA-256 → ChromaDB (similarity >95%) → AI.
+   - **ChromaDB:** Vector database for semantic similarity.
+   - **Nexo Bridge:** FastAPI API for direct Obsidian integration.
 3. **Visual Layer:** Automatic generation of **Obsidian Canvas** and dynamic web viewers.
 
 ---
@@ -98,7 +105,7 @@ That volume of text is original literary work, used as a "benchmark" (performanc
 
 ## 🚀 Next Steps
 
-- [ ] Version v1.0 stabilization.
+- [ ] Version v2.0 stabilization.
 - [ ] Definition of the end-user license.
 - [ ] Opening customization modules for advanced users.
 
@@ -112,6 +119,7 @@ Even if the code is reserved, **your opinion is not**. If you want to collaborat
 - **Explore the manual** and tell us which features you would like to see integrated.
 
 ---
+
 ```
 🔒 Technical Documentation & Architecture
 The detailed pipeline architecture and technical engineering manual are reserved. 
