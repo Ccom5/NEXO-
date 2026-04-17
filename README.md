@@ -151,9 +151,9 @@ optimizada que complementa la experiencia de escritorio y móvil de Obsidian.
 
 **¿Por qué no esta el codigo fuente?**  
 Seguimos desarrollando funciones, Nexo va camino a ser una herramienta poderosa para los docentes de escolaridad  basica y tambien Universitaria.
-En este objetivo, se busca linecias que sean acorde a esta filosofia de aporte social. HAsta tenerlas el codigo deberá esperar. 
+En este objetivo, se busca licenecia que sean acorde a esta filosofia de aporte social. Hasta tenerlas, el codigo deberá esperar. 
 
 **¿Habrá una versión Pro?**  
-El núcleo funcional de Nexo nació para ser gratuito, por el momento para isntitciones educativas. 
+El núcleo funcional de Nexo nació para ser gratuito, por el momento para isntituciones educativas. 
 El objetivo es que la comunidad no dependa de suscripciones que fragmenten su conocimiento.
 Pero tambien liberaremos su uso al publico en general de forma gratuita con funciones para uso personal.
