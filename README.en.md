@@ -34,6 +34,25 @@ Obsidian is incredible for storing and connecting thoughts, but sometimes we nee
 
 ---
 
+## 📥 Download and Installation (v2.0 Stable)
+
+Nexo ∞ is distributed as an official Windows installer, optimized using Nuitka to ensure a safe and efficient deployment on your computer.
+
+> [!IMPORTANT]
+> [**🚀 Download Nexo_Installer.exe**](https://github.com/Ccom5/Nexo-/releases/download/v2.0.0/Nexo_Installer.exe)
+> *Stable Version | 175 MB | Verified via SHA-256*
+
+### 🏁 Quick First Steps:
+1. **Download the installer** above and run it on your PC.
+
+2. **Refer to the [Initial Setup Manual](./MANUAL_SETUP.md)** to activate your free **Educational License** and link your **Machine ID**.
+
+3. **Configure your environment:** Ensure port 8000 is free for the **Nexo Bridge**.
+
+> [!NOTE]
+> **Total Versatility:** While we prioritize the education sector, this engine is **universal**. It is fully operational for managing technical, administrative, scientific, or literary knowledge.
+
+
 # ♾️ Nexo: Cognitive Ecosystem
 
 **Nexo** is an intelligence bridge designed to boost personal knowledge applications like **Obsidian**. Developed from the precision of **electronic engineering**, it transforms massive libraries into operational maps through a hybrid AI architecture.

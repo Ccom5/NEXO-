@@ -43,6 +43,26 @@ esas notas se conviertan en acción. Nexo actúa como la capa de gestión que or
 
 ---
 
+---
+
+## 📥 Descarga e Instalación (v2.0 Estable)
+
+Nexo ∞ se distribuye como un instalador oficial para Windows, optimizado mediante **Nuitka** para garantizar un despliegue seguro y eficiente en tu equipo.
+
+> [!IMPORTANT]
+> [**🚀 Descargar Nexo_Instalador.exe**](https://github.com/Ccom5/Nexo-/releases/download/v2.0.0/Nexo_Instalador.exe)  
+> *Versión Estable | 175 MB | Verificado vía SHA-256*
+
+### 🏁 Primeros Pasos Rápidos:
+1.  **Descarga el instalador** arriba y ejecútalo en tu PC.
+2.  **Consulta el [Manual de Configuración Inicial](./MANUAL_SETUP.md)** para activar tu **Licencia Educativa** gratuita y vincular tu **Machine ID**.
+3.  **Configura tu entorno:** Asegúrate de tener el puerto 8000 libre para el **Nexo Bridge**.
+
+> [!NOTE]
+> **Versatilidad Total:** Aunque priorizamos el sector educativo, este motor es **universal**. Es plenamente operativo para gestión de conocimiento técnico, administrativo, científico o literario.
+
+---
+
 # ♾️ Nexo: Ecosistema Cognitivo
 
 **Nexo** es un puente de inteligencia diseñado para potenciar aplicaciones de conocimiento personal como **Obsidian**.
@@ -106,6 +126,7 @@ Mensaje técnico: "Demostración de procesamiento de alta densidad: 130k palabra
 ## 🌐 [**Explorar Manual de Usuario**](https://ccom5.github.io/Nexo-/)
 
 ## 📄 [**Guía de Instalación y Primer Setup**](MANUAL_SETUP.md)
+
 
 ---
 
