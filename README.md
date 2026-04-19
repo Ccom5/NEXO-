@@ -53,13 +53,14 @@ mediante una arquitectura híbrida de IA.
 
 ## 🌌 Características Principales
 
--   **Procesamiento Multimodal:** Capaz de digerir **texto, imágenes y audio** mediante arquitectura híbrida de IA.
--   **Procesamiento de Alta Densidad:** Capaz de digerir **+100,000 palabras** en menos de un minuto mediante un sistema de **triaje inteligente**.
--   **ChromaDB Integrada:** Base de datos vectorial para similitud semántica (>95% = conceptual_hit, 0 tokens IA).
--   **Nexo Bridge:** API FastAPI (puerto 8000) para integración directa con Obsidian.
--   **Mapa de Ideas (Propio):** Motor visual inyectado que traduce datos JSON en constelaciones interactivas de conocimiento.
+-   **Arquitectura Híbrida de IA:** Soporte nativo para APIs en la nube (**SambaNova, Groq, OpenRouter**) e IA Local mediante **Ollama**.
+-   **Recomendador de Modelos Inteligente:** Analiza tu hardware local (CPU/GPU) para sugerir el modelo de Ollama más eficiente y evitar latencias.
+-   **Router de IA con Resiliencia:** Algoritmo *Round Robin* que rota automáticamente entre proveedores para optimizar cuotas y garantizar disponibilidad 24/7.
+-   **Procesamiento de Alta Densidad:** Capaz de digerir **+130,000 palabras** en segundos mediante un sistema de **triaje inteligente** que extrae el "ADN" del texto (10% representativo).
+-   **Privacidad Local-First:** ChromaDB gestiona la memoria semántica localmente. Si la similitud conceptual es >95%, se activa un *conceptual_hit* (0 tokens de IA).
 -   **Simbiosis con Obsidian:** Utiliza tu bóveda como **caché no volátil**, asegurando que los hallazgos de la IA queden anclados localmente para siempre.
--   **Router de IA con Resiliencia:** Sistema de _Round Robin_ que rota automáticamente entre SambaNova, Groq y OpenRouter para optimizar cuotas y garantizar disponibilidad 24/7.
+-   **Nexo Bridge:** API FastAPI (puerto 8000) para integración directa y comunicación bidireccional con Obsidian.
+-   **Mapa de Ideas (Propio):** Motor visual que traduce datos complejos en constelaciones interactivas de conocimiento.
 -   **Memoria Inteligente (AAAK):** Sistema de MemAtoms que aprende de tus notas y mantiene un contexto vivo.
 
 ---
@@ -69,10 +70,9 @@ mediante una arquitectura híbrida de IA.
 Nexo aplica principios de optimización de recursos para manejar grandes volúmenes de texto y contenido multimodal:
 
 1.  **Capa de Datos:** Obsidian como núcleo de persistencia y visualización.
-2.  **Capa de Inteligencia (Python):** Motores de enriquecimiento que extraen el "ADN" del texto (10% representativo) para análisis profundo sin agotar recursos.
+2.  **Capa de Inteligencia (Python + Bridge):** Motores de enriquecimiento que extraen el "ADN" del texto (10% representativo) comunicados mediante el **Nexo Bridge** (API FastAPI) para integración directa con Obsidian.
     -   **Triple Filtro de Resiliencia:** SHA-256 → ChromaDB (similitud >95%) → IA.
-    -   **ChromaDB:** Base de datos vectorial para similitud semántica.
-    -   **Nexo Bridge:** API FastAPI para integración directa con Obsidian.
+    -   **ChromaDB:** Base de datos vectorial para similitud semántica local.
 3.  **Capa Visual:** Generación automática de **Canvas de Obsidian** y visores web dinámicos.
 
 ---
@@ -105,15 +105,19 @@ Mensaje técnico: "Demostración de procesamiento de alta densidad: 130k palabra
 
 ## 🌐 [**Explorar Manual de Usuario Interactivo**](https://ccom5.github.io/Nexo-/)
 
+## 📄 [**Guía de Instalación y Primer Setup (Markdown)**](MANUAL_SETUP.md)
+
 ---
 
 ## ⚖️ Filosofía y Licencia
 
-**Nexo** nació para proteger la libertad del conocimiento.
+Nexo ∞ nace de la necesidad de proteger la soberanía intelectual frente a la automatización ciega.
 
--   **Estado actual:** Todos los derechos reservados mientras se define la licencia que mejor proteja la gratuidad y la
-    integridad de la comunidad.
--   **Misión:** Mantenerse como una herramienta potente, accesible y respetuosa con la soberanía de los datos.
+-   **Modelo de Distribución:** El código fuente se mantiene bajo reserva. La distribución se realiza exclusivamente mediante binarios compilados con **Nuitka (.exe)** para garantizar la integridad del proyecto.
+-   **Licencia Educativa:** Uso gratuito y permanente para docentes e instituciones mediante una **Clave de Uso Permanente**.
+-   **Activación por Hardware:** La licencia se vincula al **Machine ID** (identificador único de hardware) del equipo, generando una clave cifrada intransferible.
+-   **Uso Razonable:** Implementación de un límite de uso gratuito para usuarios generales; al agotarse, el sistema mantiene un Modo Básico con funciones esenciales.
+-   **Filosofía:** Basado en el artículo *"Discernir: La eficiencia que nos vuelve irrelevantes"*, Nexo busca que el usuario mantenga el criterio, usando la IA como validación y no como sustituto.
 
 ---
 
@@ -146,14 +150,13 @@ puedes solicitar acceso al repositorio privado:
 ## 📌 FAQ Rápido
 
 **¿Es Nexo ∞ un plugin de Obsidian?**  
-No, es un motor cognitivo independiente. Es un compañero diseñado para coexistir, ofreciendo una interfaz de usuario
-optimizada que complementa la experiencia de escritorio y móvil de Obsidian.
+No, es un motor cognitivo independiente que se comunica con Obsidian vía el **Nexo Bridge (Puerto 8000)**. Complementa la experiencia de Obsidian ofreciendo una capa operativa y de análisis masivo.
 
-**¿Por qué no esta el codigo fuente?**  
-Seguimos desarrollando funciones, Nexo va camino a ser una herramienta poderosa para los docentes de escolaridad  basica y tambien Universitaria.
-En este objetivo, se busca licenecia que sean acorde a esta filosofia de aporte social. Hasta tenerlas, el codigo deberá esperar. 
+**¿Por qué el código es privado?**  
+Para proteger la propiedad intelectual y garantizar que la herramienta se distribuya sin modificaciones que alteren su filosofía pedagógica. El binario (.exe) es la forma segura de entrega.
 
-**¿Habrá una versión Pro?**  
-El núcleo funcional de Nexo nació para ser gratuito, por el momento para isntituciones educativas. 
-El objetivo es que la comunidad no dependa de suscripciones que fragmenten su conocimiento.
-Pero tambien liberaremos su uso al publico en general de forma gratuita con funciones para uso personal.
+**¿Cómo funciona la Licencia Educativa?**  
+Está diseñada para el aporte social. Se vincula al hardware (Machine ID) para asegurar que el recurso llegue directamente a quienes lo necesitan (docentes y alumnos) sin fragmentación.
+
+**¿Qué pasa si no tengo conexión a internet?**  
+Nexo soporta **IA Local mediante Ollama**. Si tienes modelos descargados localmente, puedes procesar tu conocimiento con total privacidad y sin dependencia de la nube.

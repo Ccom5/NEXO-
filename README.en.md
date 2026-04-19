@@ -42,14 +42,15 @@ Obsidian is incredible for storing and connecting thoughts, but sometimes we nee
 
 ## 🌌 Main Features
 
-- **Multimodal Processing:** Capable of digesting **text, images and audio** through a hybrid AI architecture.
-- **High-Density Processing:** Capable of digesting **+100,000 words** in less than a minute through a **smart triage system**.
-- **ChromaDB Integrated:** Vector database for semantic similarity (>95% = conceptual_hit, 0 AI tokens).
-- **Nexo Bridge:** FastAPI API (port 8000) for direct Obsidian integration.
-- **Idea Map (Proprietary):** Injected visual engine that translates JSON data into interactive knowledge constellations.
-- **Symbiosis with Obsidian:** Uses your vault as a **non-volatile cache**, ensuring that AI findings remain locally anchored forever.
-- **Resilient AI Router:** A *Round Robin* system that automatically rotates between SambaNova, Groq, and OpenRouter to optimize quotas and guarantee 24/7 availability.
-- **Smart Memory (AAAK):** MemAtoms system that learns from your notes and maintains a living context.
+-   **Hybrid AI Architecture:** Native support for cloud APIs (**SambaNova, Groq, OpenRouter**) and Local AI via **Ollama**.
+-   **Smart Model Recommender:** Analyzes your local hardware (CPU/GPU) to suggest the most efficient Ollama model and avoid latency.
+-   **Resilient AI Router:** *Round Robin* algorithm that automatically rotates between providers to optimize quotas and guarantee 24/7 availability.
+-   **High-Density Processing:** Capable of digesting **+130,000 words** in seconds through a **smart triage system** that extracts the text "DNA" (10% representative).
+-   **Local-First Privacy:** ChromaDB manages semantic memory locally. If conceptual similarity is >95%, a *conceptual_hit* is triggered (0 AI tokens consumed).
+-   **Symbiosis with Obsidian:** Uses your vault as a **non-volatile cache**, ensuring AI findings remain locally anchored forever.
+-   **Nexo Bridge:** FastAPI API (port 8000) for direct integration and two-way communication with Obsidian.
+-   **Idea Map (Proprietary):** Visual engine that translates complex data into interactive knowledge constellations.
+-   **Smart Memory (AAAK):** MemAtoms system that learns from your notes and maintains a living context.
 
 ---
 
@@ -58,10 +59,9 @@ Obsidian is incredible for storing and connecting thoughts, but sometimes we nee
 Nexo applies resource optimization principles to handle large volumes of text and multimodal content:
 
 1. **Data Layer:** Obsidian as the core for persistence and visualization.
-2. **Intelligence Layer (Python):** Enrichment engines that extract the "DNA" of the text (10% representative) for deep analysis without exhausting resources.
+2. **Intelligence Layer (Python + Bridge):** Enrichment engines that extract the "DNA" of the text (10% representative) communicated via the **Nexo Bridge** (FastAPI API) for direct Obsidian integration.
    - **Resilience Triple Filter:** SHA-256 → ChromaDB (similarity >95%) → AI.
-   - **ChromaDB:** Vector database for semantic similarity.
-   - **Nexo Bridge:** FastAPI API for direct Obsidian integration.
+   - **ChromaDB:** Vector database for local semantic similarity.
 3. **Visual Layer:** Automatic generation of **Obsidian Canvas** and dynamic web viewers.
 
 ---
@@ -92,14 +92,19 @@ That volume of text is original literary work, used as a "benchmark" (performanc
 
 ## 🌐 [**Explore Interactive User Manual**](https://ccom5.github.io/Nexo-/)
 
+## 📄 [**Installation & First Setup Guide (Markdown)**](MANUAL_SETUP.md)
+
 ---
 
 ## ⚖️ Philosophy and License
 
-**Nexo** was born to protect the freedom of knowledge.
+Nexo ∞ was born from the need to protect intellectual sovereignty against blind automation.
 
-- **Current Status:** All rights reserved while the license that best protects the gratuity and integrity of the community is defined.
-- **Mission:** To remain a powerful, accessible tool that respects data sovereignty.
+-   **Distribution Model:** Source code remains reserved. Distribution is exclusively through binaries compiled with **Nuitka (.exe)** to ensure project integrity.
+-   **Educational License:** Permanent and free use for teachers and institutions via a **Permanent Use Key**.
+-   **Hardware Activation:** Licenses are linked to the **Machine ID** (unique hardware identifier) of the computer, generating an encrypted non-transferable key.
+-   **Fair Use:** Implementation of a free use limit for general users; once exhausted, the system maintains a Basic Mode with essential functions.
+-   **Philosophy:** Based on the article *"Discern: The efficiency that makes us irrelevant"*, Nexo ensures the user maintains judgment, using AI as validation rather than a substitute.
 
 ---
 
@@ -131,19 +136,14 @@ you may request access to the private repository:
 ```
 ## 📌 Quick FAQ
 
-**Is Nexo ∞ an Obsidian add-on?**
-No, it's an independent cognitive engine. It's a companion designed to coexist, offering an optimized user interface that complements the Obsidian desktop and mobile experience.
+**Is Nexo ∞ an Obsidian plugin?**  
+No, it's an independent cognitive engine that communicates with Obsidian via the **Nexo Bridge (Port 8000)**. It complements the Obsidian experience by offering an operational and mass-analysis layer.
 
-**Why isn't the source code available?**
-We continue developing features; Nexo is on its way to becoming a powerful tool for teachers at both the primary and university levels.
+**Why is the source code private?**  
+To protect intellectual property and ensure the tool is distributed without modifications that alter its pedagogical philosophy. The binary (.exe) is the secure delivery format.
 
-To achieve this, we are seeking guidelines that align with this philosophy of social contribution. Until these guidelines are available, the code will have to wait.
+**How does the Educational License work?**  
+It is designed for social contribution. It is linked to hardware (Machine ID) to ensure the resource reaches those who need it (teachers and students) without fragmentation.
 
-And in this objective, we're looking for features that align with this philosophy of social contribution.
-
-**Will there be a Pro version?**
-The core functionality of Nexo was created to be free, for now, for educational institutions.
-
-The goal is for the community not to depend on subscriptions that fragment their knowledge.
-
-But we will also release it to the general public for free with features for personal use.
+**What if I don't have an internet connection?**  
+Nexo supports **Local AI via Ollama**. If you have models downloaded locally, you can process your knowledge with total privacy and no cloud dependency.
