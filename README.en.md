@@ -104,7 +104,9 @@ Nexo ∞ was born from the need to protect intellectual sovereignty against blin
 -   **Educational License:** Permanent and free use for teachers and institutions via a **Permanent Use Key**.
 -   **Hardware Activation:** Licenses are linked to the **Machine ID** (unique hardware identifier) of the computer, generating an encrypted non-transferable key.
 -   **Fair Use:** Implementation of a free use limit for general users; once exhausted, the system maintains a Basic Mode with essential functions.
--   **Philosophy:** Based on the article *"Discern: The efficiency that makes us irrelevant"*, Nexo ensures the user maintains judgment, using AI as validation rather than a substitute.
+-   **Ethical Foundations:** Nexo ∞ is based on the principle of human discernment over automation. It aims to ensure that the user maintains their judgment, using AI for validation, not as a substitute. You can read the full thesis at: "Discern: The Efficiency That Makes Us Irrelevant." [![Philosophy](https://img.shields.io/badge/Filosofía-Discernir-blueviolet.svg)](https://resonancias.pages.dev/pages/blog/2026/discernir.html)
+
+- **🌐 Ecosystem Versatility** "While Nexo ∞ is primarily promoted for the education sector as a social contribution, its engineering architecture is designed to be universal. The knowledge management system is fully functional and optimized for any area of ​​knowledge, including technical, administrative, scientific, or literary environments. Anyone who manages dense flows of user information will find in Nexo an ally for critical discernment."
 
 ---
 
