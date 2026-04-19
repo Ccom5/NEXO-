@@ -90,9 +90,9 @@ That volume of text is original literary work, used as a "benchmark" (performanc
 
 ---
 
-## 🌐 [**Explore Interactive User Manual**](https://ccom5.github.io/Nexo-/)
+## 🌐 [**Explore User Manual**](https://ccom5.github.io/Nexo-/)
 
-## 📄 [**Installation & First Setup Guide (Markdown)**](MANUAL_SETUP.md)
+## 📄 [**Installation & First Setup Guide**](MANUAL_SETUP.md)
 
 ---
 
