@@ -110,9 +110,9 @@ Nexo ∞ was born from the need to protect intellectual sovereignty against blin
 
 ## 🚀 Next Steps
 
-- [ ] Version v2.0 stabilization.
-- [ ] Definition of the end-user license.
-- [ ] Opening customization modules for advanced users.
+- [ ] Develop specific cognitive functions
+- [ ] Promote and demonstrate educational use
+- [ ] Open customization modules for advanced users
 
 ---
 

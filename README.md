@@ -123,8 +123,8 @@ Nexo ∞ nace de la necesidad de proteger la soberanía intelectual frente a la 
 
 ## 🚀 Próximos Pasos
 
--   [ ] Estabilización de la versión v2.0.
--   [ ] Definición de la licencia de uso final.
+-   [ ] Desarrollar funciones especificas cognitivas
+-   [ ] Promocion demostracion de uso educativo
 -   [ ] Apertura de módulos de personalización para usuarios avanzados.
 
 ---
