@@ -39,8 +39,8 @@ Obsidian is incredible for storing and connecting thoughts, but sometimes we nee
 Nexo ∞ is distributed as an official Windows installer, optimized using Nuitka to ensure a safe and efficient deployment on your computer.
 
 > [!IMPORTANT]
-> [**🚀 Download Nexo_Installer.exe**](https://github.com/Ccom5/Nexo-/releases/download/v2.0.0/Nexo_Installer.exe)
-> *Stable Version | 175 MB | Verified via SHA-256*
+> [**🚀 Download Nexo_Installer.exe**](https://github.com/Ccom5/Nexo-/releases/download/v2.0.0/Nexo_Installer_v1.exe)
+> *Stable Version | 186 MB | Verified via SHA-256*
 
 ### 🏁 Quick First Steps:
 1. **Download the installer** above and run it on your PC.
