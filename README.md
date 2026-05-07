@@ -51,7 +51,7 @@ Nexo ∞ para Windows, optimizado mediante **Nuitka** para garantizar un desplie
 
 > [!IMPORTANT] >
 > [**🚀 Descargar Nexo_Instalador.exe**](https://github.com/Ccom5/Nexo-/releases/download/v2.0.0/Nexo_Instalador.exe)  
-> _Versión Estable | 175 MB | Verificado vía SHA-256_
+> _Versión Estable | 186 MB | Verificado vía SHA-256_
 
 ### ⚠️ Aviso sobre la Seguridad de Windows (SmartScreen)
 
