@@ -142,7 +142,7 @@ Mensaje técnico: "Demostración de procesamiento de alta densidad: 130k palabra
 
 ---
 
-## 🌐 [**Explorar Manual de Usuario**](https://ccom5.github.io/Nexo-/)
+## 🌐 [**Explorar Manual de Usuario**](https://ccom5.github.io/Nexo-/index.html)
 
 ## 📄 [**Guía de Instalación y Primer Setup**](MANUAL_SETUP.md)
 
