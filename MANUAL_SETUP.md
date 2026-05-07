@@ -34,8 +34,14 @@ Ejecuta el binario compilado `nexo.exe`. Al ser una distribución protegida medi
 Nexo ∞ promueve la gratuidad para el sector educativo mediante un sistema de **Soberanía del Conocimiento**:
 
 *   **Clave Educativa:** Los docentes e instituciones pueden solicitar una clave de uso permanente.
-*   **Vínculo con Hardware:** La activación se realiza mediante una solicitud "in-app" vinculada a tu **Machine ID** (identificador único de hardware). Esto genera una clave cifrada intransferible para tu equipo.
-*   **Modo Básico:** Existe un límite de uso gratuito razonable; una vez agotado, se activan las funciones esenciales hasta la activación de la licencia.
+*   **Vínculo con Hardware:** La activación se vincula a tu **Machine ID** (identificador único de hardware), generando una clave cifrada intransferible para tu equipo.
+*   **Modo Básico:** Existe un límite de uso gratuito para usuarios generales; al agotarse, el sistema mantiene funciones esenciales.
+
+**¿Cómo encontrar tu Machine ID y solicitar la clave?**
+1. Abre Nexo y ve a **Menú Lateral → Avanzado → Licencia Educativa**.
+2. Copia tu **Machine ID** (aparece automáticamente en el panel).
+3. Abre un Issue en el [repositorio de GitHub](https://github.com/Ccom5/Nexo-) con el asunto `"Solicitud de Licencia Educativa"`. Incluye tu Machine ID y una breve mención de tu rol/institución.
+4. Recibirás tu clave cifrada de vuelta. Cópiala y pégala en el mismo panel para activar tu copia permanentemente.
 
 ---
 

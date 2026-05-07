@@ -47,11 +47,30 @@ esas notas se conviertan en acción. Nexo actúa como la capa de gestión que or
 
 ## 📥 Descarga e Instalación (v2.0 Estable)
 
-Nexo ∞ se distribuye como un instalador oficial para Windows, optimizado mediante **Nuitka** para garantizar un despliegue seguro y eficiente en tu equipo.
+Nexo ∞ para Windows, optimizado mediante **Nuitka** para garantizar un despliegue seguro y eficiente en tu equipo.
 
-> [!IMPORTANT]
+> [!IMPORTANT] >
 > [**🚀 Descargar Nexo_Instalador.exe**](https://github.com/Ccom5/Nexo-/releases/download/v2.0.0/Nexo_Instalador.exe)  
-> *Versión Estable | 175 MB | Verificado vía SHA-256*
+> _Versión Estable | 175 MB | Verificado vía SHA-256_
+
+### ⚠️ Aviso sobre la Seguridad de Windows (SmartScreen)
+
+Al ejecutar el instalador por primera vez, es muy probable que Windows muestre una ventana azul con el mensaje
+**"Protección de Microsoft Defender"**.
+
+**¿Por qué sucede esto? ** Nexo es un proyecto independiente y gratuito. Para eliminar esta
+advertencia, Microsoft requiere el pago de una licencia de desarrollador de alto costo, la cual hemos decidido no
+adquirir para mantener el software libre de cargos para el usuario final.
+
+**Pasos para instalar sin problemas:**
+
+1. En la ventana azul de Windows, haz clic en el enlace **"Más información"**
+2. Aparecerá un botón nuevo llamado **"Ejecutar de todas formas"**
+3. Haz clic en él para iniciar el asistente de instalación
+
+_Este software ha sido analizado y es completamente seguro para su uso._ Nexo se distribuye
+como un ejecutable optimizado mediante **Nuitka** para garantizar un despliegue eficiente en sistemas Windows.
+
 
 ### 🏁 Primeros Pasos Rápidos:
 1.  **Descarga el instalador** arriba y ejecútalo en tu PC.

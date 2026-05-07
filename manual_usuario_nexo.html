@@ -514,20 +514,35 @@ OPENROUTER_API_KEY=tu_llave</code></pre>
             <div class="phase-tag" style="color: var(--teal)">Integración</div>
             <div class="phase-title">Nexo Bridge para Obsidian</div>
             <div class="phase-desc">
-              Conecta Obsidian directamente con Nexo mediante plugin. Análisis de notas,
-              búsqueda de MemAtoms y chat cognitivo desde el editor.
+              Conecta Obsidian directamente con Nexo mediante un plugin nativo. Análisis de notas,
+              búsqueda de MemAtoms, chat cognitivo y estado de conexión en tiempo real, todo desde el editor.
             </div>
           </div>
         </div>
         <div class="split">
           <div class="mini-card">
-            <div class="mini-card-label" style="color: var(--teal)">Funcionalidades</div>
-            <p>Analiza la nota activa con un comando. Busca MemAtoms relacionados a la posición del cursor.</p>
+            <div class="mini-card-label" style="color: var(--teal)">Comandos (Ctrl+P)</div>
+            <ul>
+              <li><code>Nexo: Analizar nota</code> — Envía la nota activa al pipeline de enriquecimiento.</li>
+              <li><code>Nexo: Buscar MemAtoms</code> — Recupera recuerdos semánticos ligados al cursor.</li>
+              <li><code>Nexo: Verificar estado</code> — Comprueba la conexión con el servidor local.</li>
+            </ul>
           </div>
           <div class="mini-card">
-            <div class="mini-card-label" style="color: var(--purple)">Instalación</div>
-            <p>Copia <code>vault_template/.obsidian/plugins/nexo-bridge/</code> a tu vault de Obsidian.</p>
+            <div class="mini-card-label" style="color: var(--purple)">Instalación y Endpoints</div>
+            <p>Copia <code>vault_template/.obsidian/plugins/nexo-bridge/</code> a tu vault (requiere Obsidian 0.15.0+).</p>
+            <p style="margin-top:12px">Endpoints en <code>localhost:8000</code>:</p>
+            <ul>
+              <li><code>/status</code> — Estado del servidor</li>
+              <li><code>/analyze</code> — Analizar nota</li>
+              <li><code>/mematoms</code> — Buscar recuerdos</li>
+              <li><code>/ask</code> — Chat cognitivo</li>
+            </ul>
           </div>
+        </div>
+        <div class="info-box">
+          <strong>Indicador de Conectividad:</strong>
+          <p>El estado del Bridge aparece en la barra de estado de Nexo. Verde = conexión activa. Si aparece en rojo, verifica que el puerto 8000 esté libre y que Nexo esté en ejecución.</p>
         </div>
       </div>
 
@@ -622,19 +637,23 @@ OPENROUTER_API_KEY=tu_llave</code></pre>
             </div>
           </div>
         </div>
-        <div class="mini-card"><strong>🎯 Radar:</strong> Dashboard de ideas proyectadas.</div>
-        <div class="img-container">
-          <img src="img/radar.png" alt="Constelaciones" />
-        </div>
-      </div>
-      <div class="mini-card">
-        <strong>🌱 Mapa:</strong> Grafo concéntrico interactivo.
-        <div class="img-container">
-          <img src="img/semillas.png" alt="Mapa" />
-        </div>
-        <strong>◆ Hubs:</strong> Foco en temas y conexiones de red.
-        <div class="img-container">
-          <img src="img/nodos.png" alt="Hubs" />
+        <div class="split">
+          <div class="mini-card">
+            <ul>
+              <li><strong>🎯 Radar:</strong> Dashboard de ideas proyectadas por temáticas.</li>
+              <div class="img-container"><img src="img/radar.png" alt="Radar" /></div>
+              <li><strong>🔷 Constelaciones:</strong> Agrupación visual de notas por género y estilo.</li>
+              <div class="img-container"><img src="img/constelaciones.png" alt="Constelaciones" /></div>
+            </ul>
+          </div>
+          <div class="mini-card">
+            <ul>
+              <li><strong>🌱 Mapa:</strong> Grafo concéntrico interactivo de ideas y semillas.</li>
+              <div class="img-container"><img src="img/semillas.png" alt="Mapa" /></div>
+              <li><strong>◆ Hubs:</strong> Foco en nodos maestros y conexiones de red.</li>
+              <div class="img-container"><img src="img/nodos.png" alt="Hubs" /></div>
+            </ul>
+          </div>
         </div>
       </div>
 
@@ -674,6 +693,170 @@ OPENROUTER_API_KEY=tu_llave</code></pre>
           </div>
           <div class="img-container" style="flex: 1">
             <img src="img/camvas2.png" alt="Canvas 2" />
+          </div>
+        </div>
+      </div>
+      <!-- ── SECCIÓN: IMPORTAR DOCUMENTOS ── -->
+      <div class="section-label">Ingesta de Conocimiento</div>
+      <div class="phase" id="importar-docs">
+        <div class="phase-header">
+          <div class="phase-icon bg-blue">📥</div>
+          <div class="phase-meta">
+            <div class="phase-tag" style="color: var(--accent)">Importación</div>
+            <div class="phase-title">Importar Documentos al Ecosistema</div>
+            <div class="phase-desc">
+              Nexo convierte cualquier archivo externo en una nota enriquecida de tu biblioteca. El motor <strong>MarkItDown</strong> no requiere binarios externos y procesa múltiples formatos (<code>.pdf</code>, <code>.docx</code>, <code>.pptx</code>, <code>.xlsx</code>, <code>.epub</code>) de forma nativa.
+            </div>
+          </div>
+        </div>
+        <div class="split">
+          <div class="mini-card">
+            <div class="step-num">01</div>
+            <div class="mini-card-label" style="color: var(--accent)">Selección y Destino</div>
+            <p>
+              Usa el botón <strong>"Importar Archivos"</strong>. El sistema te pedirá que selecciones los documentos y asignes el <em>Espacio de Pensamiento</em> (Tema) donde deben guardarse.
+            </p>
+          </div>
+          <div class="mini-card">
+            <div class="step-num">02</div>
+            <div class="mini-card-label" style="color: var(--accent)">Conversión Automática</div>
+            <p>
+              Nexo convierte instantáneamente el archivo a formato <code>.md</code>, inyectando un frontmatter YAML con la etiqueta <code>ai_status: raw</code> (indicando que aún no ha sido analizado).
+            </p>
+          </div>
+        </div>
+        <div class="split">
+          <div class="mini-card">
+            <div class="step-num">03</div>
+            <div class="mini-card-label" style="color: var(--accent)">Enriquecimiento Cognitivo</div>
+            <p>
+              Ejecuta el proceso <strong>"Analizar Documentos"</strong>. El pipeline de IA tomará estos documentos crudos y extraerá su conocimiento profundo y MemAtoms.
+            </p>
+          </div>
+          <div class="mini-card" style="background: rgba(59, 130, 246, 0.05); border-color: rgba(59, 130, 246, 0.2);">
+            <div class="mini-card-label" style="color: var(--accent)">Triple Filtro (Ahorro de Tokens)</div>
+            <p>
+              Antes de usar la IA, el sistema verifica firmas <strong>SHA-256</strong> y similitud semántica (<strong>ChromaDB &gt;95%</strong>). Solo el contenido genuinamente nuevo consumirá tokens.
+            </p>
+          </div>
+        </div>
+      </div>
+
+      <!-- ── SECCIÓN: ESPACIOS DE PENSAMIENTO ── -->
+      <div class="phase" id="espacios-pensamiento">
+        <div class="phase-header">
+          <div class="phase-icon bg-purple">🗂️</div>
+          <div class="phase-meta">
+            <div class="phase-tag" style="color: var(--purple)">Organización</div>
+            <div class="phase-title">Espacios de Pensamiento (Temas)</div>
+            <div class="phase-desc">
+              Organiza tu conocimiento en universos temáticos independientes. Cada Espacio tiene su propia
+              biblioteca, caché vectorial y datos de visualización completamente aislados.
+            </div>
+          </div>
+        </div>
+        <div class="split">
+          <div class="mini-card">
+            <div class="mini-card-label" style="color: var(--purple)">Capacidad Infinita</div>
+            <p>Crea tantos temas como necesites: <em>Física, Historia, Proyectos, Investigación...</em> No hay límite. Cada tema genera automáticamente su estructura de carpetas en tu biblioteca local.</p>
+          </div>
+          <div class="mini-card">
+            <div class="mini-card-label" style="color: var(--purple)">Aislamiento Completo</div>
+            <ul>
+              <li>Documentos, caché y vectores separados por tema.</li>
+              <li>El visor 3D muestra badge con el tema activo.</li>
+              <li>Analiza y exporta cada tema de forma independiente.</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+
+      <!-- ── SECCIÓN: NODO LOCAL / OLLAMA ── -->
+      <div class="section-label">Soberanía de Datos</div>
+      <div class="phase" id="nodo-local">
+        <div class="phase-header">
+          <div class="phase-icon bg-green">📡</div>
+          <div class="phase-meta">
+            <div class="phase-tag" style="color: var(--green)">Local</div>
+            <div class="phase-title">Nodo Local — IA Soberana (Ollama)</div>
+            <div class="phase-desc">
+              Procesa tu conocimiento con <strong>total privacidad</strong> y sin dependencia de internet.
+              Ollama permite ejecutar modelos LLM directamente en tu hardware. Debes instalar Ollama desde <a href="https://ollama.com/" target="_blank" style="color:var(--green)">ollama.com</a> antes de iniciar.
+            </div>
+          </div>
+        </div>
+        <div class="split">
+          <div class="mini-card">
+            <div class="step-num" style="color: var(--green)">01</div>
+            <div class="mini-card-label" style="color: var(--green)">Acceso y Recomendación</div>
+            <p>
+              Navega al <strong>Menú Lateral → Avanzado → Configuración de Nodo Local</strong>. El sistema auditará tu CPU/GPU y te sugerirá el modelo más eficiente para evitar cuellos de botella.
+            </p>
+          </div>
+          <div class="mini-card">
+            <div class="step-num" style="color: var(--green)">02</div>
+            <div class="mini-card-label" style="color: var(--green)">Descarga en Vivo</div>
+            <p>
+              Selecciona un modelo (ej. <em>Llama 3, Mistral, Qwen</em>) y presiona <strong>Descargar</strong>. El progreso de descarga y desempaquetado se transmite en tiempo real en la terminal inferior.
+            </p>
+          </div>
+        </div>
+        <div class="split">
+          <div class="mini-card">
+            <div class="step-num" style="color: var(--green)">03</div>
+            <div class="mini-card-label" style="color: var(--green)">Activación Prioritaria</div>
+            <p>
+              Una vez activo, el enrutador de Nexo <strong>prioriza automáticamente</strong> el Nodo Local para auditorías de conocimiento, aplicando un cambio inmediato sin necesidad de reiniciar (<em>Hot-Reload</em>).
+            </p>
+          </div>
+          <div class="mini-card" style="background: rgba(34, 197, 94, 0.05); border-color: rgba(34, 197, 94, 0.2);">
+            <div class="mini-card-label" style="color: var(--green)">⚠️ Requisitos Físicos</div>
+            <p>
+              Modelos de 7B requieren un mínimo de <strong>8 GB de RAM</strong>. Modelos de 13B o superior necesitan <strong>16 GB+</strong>. El panel te advertirá si intentas cargar modelos incompatibles.
+            </p>
+          </div>
+        </div>
+      </div>
+
+      <!-- ── SECCIÓN: TROUBLESHOOTING ── -->
+      <div class="section-label">Solución de Problemas</div>
+      <div class="phase" id="troubleshooting">
+        <div class="phase-header">
+          <div class="phase-icon bg-amber">🔧</div>
+          <div class="phase-meta">
+            <div class="phase-tag" style="color: var(--amber)">Diagnóstico</div>
+            <div class="phase-title">Guía de Solución de Problemas</div>
+            <div class="phase-desc">Referencia rápida para los problemas más comunes del ecosistema Nexo.</div>
+          </div>
+        </div>
+        <div class="split">
+          <div class="mini-card">
+            <div class="mini-card-label" style="color: var(--amber)">Puerto 8000 en uso</div>
+            <p>Otro proceso ocupa el puerto del Bridge. En Windows ejecuta <code>netstat -ano | findstr :8000</code> para identificar el proceso y cerrarlo desde el Administrador de Tareas.</p>
+          </div>
+          <div class="mini-card">
+            <div class="mini-card-label" style="color: var(--amber)">Vault de Obsidian no encontrado</div>
+            <p>Verifica que Obsidian esté instalado. Si el despliegue automático falló, crea manualmente la carpeta <code>Documents/Nexo</code> y reinicia Nexo.</p>
+          </div>
+        </div>
+        <div class="split" style="margin-top:20px">
+          <div class="mini-card">
+            <div class="mini-card-label" style="color: var(--amber)">Ollama no responde</div>
+            <p>Verifica que el servicio Ollama esté activo en segundo plano. Ejecuta <code>ollama list</code> en la terminal para confirmar que hay modelos disponibles.</p>
+          </div>
+          <div class="mini-card">
+            <div class="mini-card-label" style="color: var(--amber)">ChromaDB corrupta</div>
+            <p>La BD vectorial está en <code>biblioteca/vectores/</code>. Si está corrupta, elimina esa carpeta y Nexo la regenerará automáticamente en el próximo análisis (los documentos no se pierden).</p>
+          </div>
+        </div>
+        <div class="split" style="margin-top:20px">
+          <div class="mini-card">
+            <div class="mini-card-label" style="color: var(--amber)">API Key inválida</div>
+            <p>Las claves se configuran en <code>.env</code> en la raíz de Nexo. Verifica que no haya espacios extras y que la clave esté activa en el portal del proveedor.</p>
+          </div>
+          <div class="mini-card">
+            <div class="mini-card-label" style="color: var(--amber)">Re-activación de Licencia</div>
+            <p>Si cambias de hardware (placa madre o SSD del sistema), el Machine ID cambia. Abre un Issue en GitHub con el asunto <em>"Re-activación de Licencia"</em> para re-vincular tu clave educativa.</p>
           </div>
         </div>
       </div>
